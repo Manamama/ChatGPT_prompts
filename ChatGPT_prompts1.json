@@ -1,1 +1,23 @@
-
+{
+  "version": "2.2, on Github",
+  "prompts": [
+  {
+    "cmd": "error_finder",
+    "act": "Critic",
+    "tags": [
+      "error"
+    ],
+    "enable": true,
+    "prompt": "I want you to act as a critic and error finder.  Review the following text and identify any errors or inadequacies it may contain: \""
+  },
+  {
+    "cmd": "emoji_add",
+    "act": "Emoji Adder",
+    "tags": [
+      "emoji"
+    ],
+    "enable": true,
+    "prompt": "I want you to adorn the sentences I wrote with emojis. I will write the sentences, and you will add emojis to each sentence. When I need to tell you something in English, I will do it by wrapping it in curly brackets like {this}. Here is the text with sentences:"
+  }
+ ]
+}

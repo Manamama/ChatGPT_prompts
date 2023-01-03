@@ -1,5 +1,5 @@
 {
-  "version": "2.2, on Github",
+  "version": "2.3, on Github, only to test the sync. See https://github.com/lencx/ChatGPT/issues/134",
   "prompts": [
   {
     "cmd": "error_finder",

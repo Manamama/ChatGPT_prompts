@@ -1,6 +1,11 @@
-{
-  "version": "2.3, on Github, only to test the sync. See https://github.com/lencx/ChatGPT/issues/134",
-  "prompts": [
+[
+  {
+    "cmd": "_ignore_version_only",
+    "act": "Versioner",
+    "tags": [],
+    "enable": true,
+    "prompt": "Version 2.0 on Github, as the more elegant \n\n{\n  \"version\": \"1.1\",\n  \"prompts\": [\n  {\n\nsolution does now work"
+  },
   {
     "cmd": "error_finder",
     "act": "Critic",
@@ -19,5 +24,4 @@
     "enable": true,
     "prompt": "I want you to adorn the sentences I wrote with emojis. I will write the sentences, and you will add emojis to each sentence. When I need to tell you something in English, I will do it by wrapping it in curly brackets like {this}. Here is the text with sentences:"
   }
- ]
-}
+]
